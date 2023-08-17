@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Section2'
-// import '../styles/Section2.scss'
+import '../styles/Section2.scss'
 
 const ImageSlider: React.FC = () => {
   const [idx, setIdx] = useState(0);

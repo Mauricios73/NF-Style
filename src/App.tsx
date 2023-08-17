@@ -1,8 +1,9 @@
 import './App.scss' 
 import './styles/nav.scss'
-import Section1 from './components/Section1';
-import Section2 from './components/Section2';
-import ImageSlider from './components/imageSlider';
+import '../src/styles/Section1.scss'
+import Section1 from '../src/components/Section1';
+import Section2 from '../src/components/Section2';
+import ImageSlider from '../src/components/imageSlider';
 
 const App = () => {
     return (
@@ -49,7 +50,7 @@ const App = () => {
             <ImageSlider />
 
 
-        {/* <script src="script.tsx"></script> */}
+        <script src="script.tsx"></script>
       </main>
     )
 }
