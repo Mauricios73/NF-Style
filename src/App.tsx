@@ -1,6 +1,6 @@
 import './App.scss' 
 import './styles/nav.scss'
-import '../src/styles/Section1.scss'
+// import '../src/styles/Section1.scss'
 import Section1 from '../src/components/Section1';
 import Section2 from '../src/components/Section2';
 import ImageSlider from '../src/components/imageSlider';
