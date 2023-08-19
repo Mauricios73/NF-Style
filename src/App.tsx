@@ -1,9 +1,8 @@
 import './App.scss' 
 import './styles/nav.scss'
-// import '../src/styles/Section1.scss'
-import Section1 from '../src/components/Section1';
-import Section2 from '../src/components/Section2';
-import ImageSlider from '../src/components/imageSlider';
+import Section1 from './components/section1/Section1';
+import Section2 from './components/section2/Section2';
+import Section3 from './components/section3/Section3';
 
 const App = () => {
     return (
@@ -17,8 +16,7 @@ const App = () => {
           </ul>
         </nav>
 
-          <div className="container">
-            <header>
+          <header className="container">
               <div className='imglogo'>
                 <img
                   src="./barbershop.png"
@@ -26,19 +24,19 @@ const App = () => {
                   height={120}
                   width={260}
                 />
-              </div>
+            </div>
+            
               <div className='namelogo'>
                 <h1>
                   <i>NF Style</i>
                 </h1>
                 <p>Transformando homens comuns em verdadeiros cavalheiros!</p>
               </div>
-            </header>
           
             <button className="btn" id="openModalButton">
               Agenda
             </button>          
-          </div>
+          </header>
 
           <section id="container-section1">
             <Section1 />          
@@ -47,10 +45,11 @@ const App = () => {
           <section id="container-section2">
             <Section2 />
           </section>          
-            <ImageSlider />
+        
+          <section id='container-section3'>
+            <Section3/>
+          </section>
 
-
-        <script src="script.tsx"></script>
       </main>
     )
 }

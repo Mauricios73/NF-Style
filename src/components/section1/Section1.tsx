@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Section1.scss'
+import '../section1/Section1.scss'
 
 const Section1: React.FC = () => {
   return (
