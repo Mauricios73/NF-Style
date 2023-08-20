@@ -3,7 +3,6 @@ import '../section1/Section1.scss'
 
 const Section1: React.FC = () => {
   return (
-    <div>
       <section className='container-section1'>
         <h1>Você está procurando por uma experiência que vai além das suas expectativas? Então bem-vindo à
           NF  STYLE</h1>
@@ -16,7 +15,6 @@ const Section1: React.FC = () => {
           <p>Desde cortes de cabelo modernos e estilos clássicos até barbas perfeitamente aparadas.</p>
         </div>
       </section>
-    </div>
   );
 };
 

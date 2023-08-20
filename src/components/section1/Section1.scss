@@ -7,7 +7,7 @@ section.container-section1 {
   max-width: 100%;
 }
 
-h1 {
+.container-section1 h1 {
 color: #c5b3a1;
   font-size: 46px;
   font-family: "Fraunces", serif;
@@ -17,7 +17,7 @@ color: #c5b3a1;
   margin-top: 120px;
 }
 
-.about{
+.container-section1 .about{
   margin-top: 104px;
   margin-left: 50px;
   margin-right: 30px;
@@ -25,14 +25,14 @@ color: #c5b3a1;
   width: 50%;
 }
 
-h2 {
+.container-section1 h2 {
   display: flex;
   color: #c5b3a1;
   font-size: 30px;
 
 }
 
-p {
+.container-section1 p {
   color: #beb1a6;
   font-size: 24px;
   font-family: Georgia, 'Times New Roman', Times, serif;

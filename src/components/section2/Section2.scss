@@ -19,7 +19,7 @@
     background-position: center;
     // background-size: 100%;
     background-color: #222;
-    width: 1840px;
+    width: 1384px;
     height: 800px;
     display: flex;
     flex-direction: column;
@@ -35,6 +35,7 @@
 }
 
 .container-section2 .carousel {
+    border-radius: 25px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     height: 564px;
     width: 500px;
