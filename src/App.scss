@@ -1,6 +1,6 @@
 @import "./styles/variables.scss";
-@import "./styles/nav.scss";
-
+// @import "./styles/nav.scss";
+@import "./components/nav/nav.scss";
 
 main {
   position: relative;
