@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import '../section2/Section2'
 import '../section2/Section2.scss'
 
 const ImageSlider: React.FC = () => {

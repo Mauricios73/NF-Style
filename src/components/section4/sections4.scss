@@ -1,0 +1,25 @@
+.container-section4 {
+  height: 800px;
+  width: 1384px;
+  background-color: rgb(76 58 44);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+.contact h1 {
+  color: #C8A287;
+  font-size: 50px;
+  margin: 0;
+  margin-bottom: 40px;
+  
+}
+
+.contact p {
+  color: black;
+  font-size: 24px;
+  margin: 5px;
+}
