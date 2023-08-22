@@ -27,14 +27,14 @@ const Section4 = () => {
           </div>        
       </div>
 
-      <div className='contact-img'>
+      {/* <div className='contact-img'>
         <img
           src="./barberTalk.jpg"
           alt="barbershop"
           height={560}
           width={560}
         />
-      </div>
+      </div> */}
       
     </section>
   )

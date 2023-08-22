@@ -40,6 +40,16 @@ color: #c5b3a1;
 
 @media (max-width: 768px) {
   .container-section1 {
-    width: 576px;
+    width: 369px;
   }
+
+  .container-section1 h1 {
+    font-size: 20px ;
+  }
+    .container-section1 h2 {
+      font-size: 16px;
+    }
+    .container-section1 p {
+      font-size: 10px;
+    }
 }

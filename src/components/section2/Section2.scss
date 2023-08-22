@@ -84,6 +84,12 @@
 
 @media (max-width: 768px) {
   .container-section2 {
-    width: 576px;
+    width: 369px;
   }
+
+  .container-section2 .carousel {
+    border-radius: 25px;
+    height: 264px;
+    width: 200px;
+}
 }
