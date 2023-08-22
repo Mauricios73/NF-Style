@@ -1,83 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 .container-section2 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .container-section2 body {
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
 }
 
 .container-section2 {
-    background-image: url('./img5.jpg');
-    // background-repeat: no-repeat, repeat-x;
-    background-position: center;
-    // background-size: 100%;
-    background-color: #222;
-    width: 1384px;
-    height: 800px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+  background-image: url('./img5.jpg');
+  // background-repeat: no-repeat, repeat-x;
+  background-position: center;
+  // background-size: 100%;
+  background-color: #222;
+  width: 1384px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .container-section2 img {
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
 }
 
 .container-section2 .carousel {
-    border-radius: 25px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    height: 564px;
-    width: 500px;
-    overflow: hidden;
-    box-shadow: rgba(0, 0, 0, 2.3) 0px 50px 100px, rgba(0, 0, 0, 3.22) 0px 0px 50px;
+  border-radius: 25px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  height: 564px;
+  width: 500px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 2.3) 0px 50px 100px, rgba(0, 0, 0, 3.22) 0px 0px 50px;
 }
 
 .container-section2 .image-container {
-    display: flex;
-    transform: translateX(0);
-    transition: transform 0.5s ease-in-out;
+  display: flex;
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out;
 }
 
 .container-section2 .buttons-container {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .container-section2 .btn {
-    height: 55px;
-    width: 45%;
-    font-size: 1.2rem;
-    padding: 1rem 2.5rem;
-    margin-top: 5px;
-    border: none;
-    outline: none;
-    border-radius: 0.4rem;
-    cursor: pointer;
-    text-transform: uppercase;
-    background-color: rgb(14, 14, 26);
-    color: rgb(234, 234, 234);
-    font-weight: 700;
-    transition: 0.6s;
-    box-shadow: 0px 0px 60px #1f4c65;
+  height: 55px;
+  width: 45%;
+  font-size: 1.2rem;
+  padding: 1rem 2.5rem;
+  margin-top: 5px;
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: rgb(14, 14, 26);
+  color: rgb(234, 234, 234);
+  font-weight: 700;
+  transition: 0.6s;
+  box-shadow: 0px 0px 60px #1f4c65;
 }
 
 .container-section2 .btn:active {
-    scale: 0.92;
+  scale: 0.92;
 }
 
 .container-section2 .btn:hover {
-    background: rgb(2, 29, 78);
-    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
-    color: rgb(4, 4, 38);
+  background: rgb(2, 29, 78);
+  background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+  color: rgb(4, 4, 38);
+}
+
+@media (max-width: 768px) {
+  .container-section2 {
+    width: 576px;
+  }
 }

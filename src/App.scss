@@ -11,7 +11,7 @@ main {
 }
 
 body {
-  background-image: url('./img3.jpg');
+  background-image: url('./imgback.png');
   background-repeat: no-repeat, repeat-x;
   background-position: top right, center;
   background-size: 100%;
@@ -125,6 +125,8 @@ body {
     color: #beb1a6;
     font-size: 18px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 50px;
+    margin-right: 50px;
     }
     }
   }

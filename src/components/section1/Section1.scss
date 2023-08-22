@@ -37,3 +37,9 @@ color: #c5b3a1;
   font-size: 24px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+@media (max-width: 768px) {
+  .container-section1 {
+    width: 576px;
+  }
+}
