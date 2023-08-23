@@ -16,7 +16,7 @@ const App = () => {
         <header className="container">
             <div className='imglogo'>
               <img
-                src="/public/barbershop.png"
+                src="./barbershop.png"
                 alt="barbershop"
                 height={120}
                 width={260}
