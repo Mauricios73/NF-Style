@@ -18,12 +18,13 @@
 //   }
   
 .nav ul {
-    display: flex;
-    list-style-type: none;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-  }
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
   
 .nav a {
     color: #fff;
@@ -55,7 +56,7 @@ font-weight: bold;
   .nav {
     position: fixed;
     font-size: large;
-    display: flex;
-    justify-content: center;
+    // display: flex;
+    // justify-content: center;
     }
 }
