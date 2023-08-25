@@ -12,10 +12,10 @@ const Section4 = () => {
         <h1>Fale Conosco</h1>
         <p>Rua Qualquer, 123</p>
         <p>Cidade Qualquer - SP</p>
-        <p>(12) 3456 - 7890</p>
+        <p>(42) 9 9824 - 9716</p>
 
         <div className="socialbtn">
-        <a href="">
+          <a href="https://www.instagram.com/real_josidocorte/#">
           <InstaIcon />
         </a>
         <a href="">
