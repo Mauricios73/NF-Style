@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, RefObject } from 'react'
 import './motion.scss'
 
 import corte1 from './assets/corte1.jpg'
@@ -10,7 +10,7 @@ import corte4 from './assets/corte4.jpg'
 const cortes = [corte1, corte2, corte3, corte4]
 
 function Corte() {
-  const carousel = useRef();
+  const carousel: RefObject<HTMLDivElement> = useRef(null);
   const [width, setWidth] = useState(0)
 
   useEffect(() => {
