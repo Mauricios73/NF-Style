@@ -17,24 +17,31 @@ const Section4 = () => {
         <div className="socialbtn">
           <a href="https://www.instagram.com/real_josidocorte/#">
           <InstaIcon />
-        </a>
-        <a href="">
-          <EmailIcon />
-        </a>
-        <a href="">
-          <TwitterIcon />
-        </a>
-          </div>        
+          </a>
+          <a href="">
+            <EmailIcon />
+          </a>
+          <a href="">
+            <TwitterIcon />
+          </a>
+        </div>        
+        <div className='developer'>
+          <button className="ui-btn">
+            <span>
+              <a href="https://github.com/Mauricios73/#">Developer</a>
+            </span>
+          </button>
+        </div>
       </div>
 
-      {/* <div className='contact-img'>
+      <div className='contact-img'>
         <img
           src="./barberTalk.jpg"
           alt="barbershop"
           height={560}
           width={560}
         />
-      </div> */}
+      </div>
       
     </section>
   )

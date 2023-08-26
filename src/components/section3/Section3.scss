@@ -16,6 +16,9 @@
   align-items: center;
 }
 
+.card-container {
+  display: flex;
+}
 
 .container-section3 {
   background-image: url(./imageStore.png);
@@ -60,9 +63,10 @@
 
 .card {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
+  border-radius: 80px;
   overflow: hidden;
   width: 350px;
+  margin: 16px;
 }
 
 .card-header {
@@ -144,7 +148,26 @@
 
 @media (max-width: 768px) {
   .container-section3 {
-    width: 369px;
-    
+    width: 397px;
+    margin: 0 auto;
   }
+
+  #container-section3 {
+    width: -webkit-fill-available;
+    background-color: #efd4c1;
+    max-width: 100%;
+  }
+  
+  .loja {
+    padding: 30px;
+  }
+  .card-container {
+    width: 430px;
+    height: 300px;
+  }
+  .card{
+    border-radius: 46px;
+    margin: 8px;
+  }
+
 }
