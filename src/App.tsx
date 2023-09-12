@@ -30,8 +30,8 @@ const App = () => {
               <p>Transformando homens comuns em verdadeiros cavalheiros!</p>
             </div>
         
-          <button className="btn" id="openModalButton">
-            Agenda
+          <button className="btn" >
+            agenda
           </button>          
         </header>
 
