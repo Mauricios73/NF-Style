@@ -25,8 +25,8 @@
 }
 
 .item img{
-  width: 400px;
-  height: 640px;
+  width: 360px;
+  height: 560px;
   border-radius: 30px;
   pointer-events: none;
 }
@@ -58,4 +58,19 @@
     border-radius: 14px;
     pointer-events: none;
   }
+}
+
+@media (max-width:1050px) {
+.item  {
+  min-width:320px;
+  min-height: 200px;
+  padding: 14px;
+}
+
+.item img{
+  width: 320px;
+  height: 500px;
+  border-radius: 30px;
+  pointer-events: none;
+}
 }

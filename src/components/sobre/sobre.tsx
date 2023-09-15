@@ -1,7 +1,7 @@
 import React from 'react';
-import '../section1/Section1.scss'
+import './sobre.scss'
 
-const Section1: React.FC = () => {
+const Sobre: React.FC = () => {
   return (
       <section className='container-section1'>
         <h1>Você está procurando por uma experiência que vai além das suas expectativas? Então bem-vindo à
@@ -18,4 +18,4 @@ const Section1: React.FC = () => {
   );
 };
 
-export default Section1;
+export default Sobre;

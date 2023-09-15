@@ -1,8 +1,7 @@
-import './App.scss' 
-import './components/nav/nav.scss'
 import Nav from './components/nav/nav';
-import Section1 from './components/section1/Section1';
-import Corte from './components/section2/motion.';
+import Header from './components/home/home';
+import Sobre from './components/sobre/sobre';
+import Corte from './components/section2/motion';
 import Section3 from './components/section3/Section3';
 import Section4 from './components/section4/section4';
 
@@ -12,31 +11,13 @@ const App = () => {
         <nav className="nav">
           <Nav/>
         </nav>
-
-        <header className="container">
-            <div className='imglogo'>
-              <img
-                src="./barbershop.png"
-                alt="barbershop"
-                height={120}
-                width={260}
-              />
-          </div>
-          
-            <div className='namelogo'>
-              <h1>
-                <i>NF Style</i>
-              </h1>
-              <p>Transformando homens comuns em verdadeiros cavalheiros!</p>
-            </div>
         
-          <button className="btn" >
-            agenda
-          </button>          
+        <header>
+          <Header/>
         </header>
 
         <section id="container-section1">
-          <Section1 />          
+        <Sobre />          
         </section>
 
         <section id="container-section2">

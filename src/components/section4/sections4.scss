@@ -1,4 +1,8 @@
 .container-section4 {
+  // background-image: url('/public/barberTalk.jpg');
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: 600px;
   height: 800px;
   width: 1384px;
   background-color: rgb(76 58 44);
@@ -33,6 +37,36 @@
   margin-top: 50px;
 }
 
+@media (max-width:1200px) {
+  .container-section4 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .contact {
+    padding-right: 70px;
+  }
+}
+
+@media (max-width:991px) {
+  .contact-img {
+    display: none;
+  }
+  .contact h1 {
+    color: #C8A287;
+    font-size: 60px;
+    margin: 0;
+    margin-bottom: 40px;
+  }
+  .contact p {
+    color: black;
+    font-size: 30px;
+    margin: 5px;
+  }
+}
+
 @media (max-width: 768px) {
   .container-section4 {
     width: 397px;
@@ -48,14 +82,27 @@
     width: -webkit-fill-available;
     background-color: rgb(76 58 44);
     max-width: 100%;
-    
   }
+  .contact h1 {
+    color: #C8A287;
+    font-size: 60px;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  .contact p {
+    color: black;
+    font-size: 24px;
+    margin: 5px;
+  }
+
   .contact-img img {
     height: 0px;
     width: 0px;
   }
+
   .contact {
-    margin-right: 30px;
+    margin-right: 0px;
+    padding: 0px;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
@@ -65,5 +112,4 @@
   .developer {
     margin-top: 50px;
   }
- 
 }
