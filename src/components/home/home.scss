@@ -78,7 +78,8 @@ body {
 
 .btn:hover {
   background: rgb(2,29,78);
-  background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+  background: linear-gradient(270deg, rgba(0, 0, 0, 0.699) 0%, rgba(232, 178, 31, 0.544) 70%);
+  box-shadow: 0px 0px 60px rgba(232, 178, 31, 0.644);
   color: rgb(4, 4, 38);
 }
   

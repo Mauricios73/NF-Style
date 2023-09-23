@@ -1,6 +1,14 @@
-import './home.scss'
 
-const Header: React.FC = () => {
+import './home.scss'
+import React from 'react';
+// import Login from '../pagLogin/login/login';
+import LoginButton from '../pagLogin/button/button';
+
+  const Header: React.FC = () => {
+    const handleLoginClick = () => {
+      window.location.href = '/login' ;
+    };
+
   return (
     <header className="container">
       <div className='imglogo'>
@@ -19,9 +27,11 @@ const Header: React.FC = () => {
         <p>Transformando homens comuns em verdadeiros cavalheiros!</p>
       </div>
 
-      <button className="btn" >
-        agenda
-      </button>
+      <div>
+        {/* <Login /> */}
+        {/* <LoginButton/> */}
+        <LoginButton onClick={handleLoginClick} />
+      </div>
     </header>
   );
 };

@@ -13,7 +13,7 @@ const App = () => {
         </nav>
         
         <header>
-          <Header/>
+          <Header />
         </header>
 
         <section id="container-section1">
