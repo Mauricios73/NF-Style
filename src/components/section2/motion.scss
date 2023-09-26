@@ -36,6 +36,21 @@
   overflow: hidden;
 }
 
+@media (max-width:1050px) {
+  .item {
+    min-width: 320px;
+    min-height: 200px;
+    padding: 14px;
+  }
+
+  .item img {
+    width: 320px;
+    height: 500px;
+    border-radius: 30px;
+    pointer-events: none;
+  }
+}
+
 @media (max-width:768px) {
   #container-section2 {
     background-image: url(/public/img5.jpg);
@@ -58,19 +73,4 @@
     border-radius: 14px;
     pointer-events: none;
   }
-}
-
-@media (max-width:1050px) {
-.item  {
-  min-width:320px;
-  min-height: 200px;
-  padding: 14px;
-}
-
-.item img{
-  width: 320px;
-  height: 500px;
-  border-radius: 30px;
-  pointer-events: none;
-}
 }
