@@ -19,7 +19,7 @@
 }
 
 .item  {
-  min-width: 400px;
+  min-width: 390px;
   min-height: 200px;
   padding: 14px;
 }
@@ -38,14 +38,14 @@
 
 @media (max-width:1050px) {
   .item {
-    min-width: 320px;
+    min-width: 330px;
     min-height: 200px;
     padding: 14px;
   }
 
   .item img {
-    width: 320px;
-    height: 500px;
+    width: 300px;
+    height: 450px;
     border-radius: 30px;
     pointer-events: none;
   }
@@ -63,7 +63,7 @@
 
   .item {
     min-height: 300px;
-    min-width: 260px;
+    min-width: 280px;
     padding: 10px;
   }
 
