@@ -1,16 +1,13 @@
-// LoginButton.tsx
+
 import React from 'react';
 
+interface LoginButtonProps {
+  onClick: () => void;
+}
 
-const LoginButton: React.FC<{ onClick: () => void }> = ({ onClick }) => {
-
-  const handleLoginClick = () => {
-    window.open('http://login', '_blank', 'noopener noreferrer');
-  };
-  
+const LoginButton: React.FC<LoginButtonProps> = ({ onClick }) => {
   return (
-    // <button onClick={onClick}>Login</button>
-    <button onClick={handleLoginClick}>Login</button>
+    <button className='btn' onClick={onClick}>Agendar</button>
   );
 };
 

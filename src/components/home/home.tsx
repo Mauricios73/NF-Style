@@ -1,13 +1,15 @@
 
 import './home.scss'
 import React from 'react';
-// import Login from '../pagLogin/login/login';
+import { useNavigate } from 'react-router-dom';
 import LoginButton from '../pagLogin/button/button';
 
-  const Header: React.FC = () => {
-    const handleLoginClick = () => {
-      window.location.href = '/login' ;
-    };
+const Header: React.FC = () => {
+  const navigate = useNavigate();
+
+  const handleLoginClick = () => {
+    navigate('login');
+  };
 
   return (
     <header className="container">
@@ -28,10 +30,9 @@ import LoginButton from '../pagLogin/button/button';
       </div>
 
       <div>
-        {/* <Login /> */}
-        {/* <LoginButton/> */}
         <LoginButton onClick={handleLoginClick} />
       </div>
+
     </header>
   );
 };

@@ -4,6 +4,8 @@ import Sobre from './components/sobre/sobre';
 import Corte from './components/section2/motion';
 import Section3 from './components/section3/Section3';
 import Section4 from './components/section4/section4';
+import Login from './components/pagLogin/login/login';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 const App = () => {
     return (
@@ -11,13 +13,18 @@ const App = () => {
         <nav className="nav">
           <Nav/>
         </nav>
-        
-        <header>
-          <Header />
-        </header>
 
+        <header>
+          <Router>
+            <Routes>
+              <Route path='/' element={<Header/>} />
+              <Route path="/login" element={<Login/>} />;
+            </Routes>
+          </Router>
+        </header>
+        
         <section id="container-section1">
-        <Sobre />          
+          <Sobre />          
         </section>
 
         <section id="container-section2">
