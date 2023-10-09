@@ -1,9 +1,9 @@
 import Nav from './components/nav/nav';
 import Header from './components/home/home';
 import Sobre from './components/sobre/sobre';
-import Corte from './components/section2/motion';
-import Section3 from './components/section3/Section3';
-import Section4 from './components/section4/section4';
+import Corte from './components/cortes/motion';
+import Section3 from './components/Loja/Section3';
+import Section4 from './components/footer/section4';
 import Login from './components/pagLogin/login/login';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
