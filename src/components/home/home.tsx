@@ -8,7 +8,7 @@ const Header: React.FC = () => {
   const navigate = useNavigate();
 
   const handleLoginClick = () => {
-    navigate('login');
+    navigate('/login');
   };
 
   return (

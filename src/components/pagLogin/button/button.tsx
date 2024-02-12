@@ -12,3 +12,4 @@ const LoginButton: React.FC<LoginButtonProps> = ({ onClick }) => {
 };
 
 export default LoginButton;
+
