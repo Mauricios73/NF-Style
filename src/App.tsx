@@ -4,8 +4,6 @@ import Sobre from './components/sobre/sobre';
 import Corte from './components/cortes/motion';
 import Section3 from './components/Loja/Section3';
 import Section4 from './components/footer/section4';
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
 import Login from './components/pagLogin/login/login';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
