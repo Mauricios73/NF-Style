@@ -25,7 +25,7 @@ function PagUser() {
       date
     };
 
-    fetch('https://backend-iota-peach.vercel.app/agendamentos', {
+    fetch('http://localhost:5000/agendamentos', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
