@@ -20,7 +20,7 @@ function Login(): JSX.Element {
 
     try {
       // const response = await axios.post<User>('http://localhost:5000/users',
-      const response = await axios.post<User>('https://backend-iota-peach.vercel.app',
+      const response = await axios.post<User>('https://backend-iota-peach.vercel.app/users',
       JSON.stringify({ email, password }),
         {
           headers: { 'Content-Type': 'application/json' }
