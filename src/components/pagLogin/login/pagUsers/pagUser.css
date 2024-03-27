@@ -45,7 +45,13 @@
 
 }
 
-
+.toast-message {
+  background: darkblue;
+  color: #fff;
+  font-size: 18px;
+  width: 22vw;
+  padding: 30px 20px;
+}
 
 #openModalButton{
 background-color: #0b018f;
