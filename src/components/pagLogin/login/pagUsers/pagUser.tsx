@@ -25,7 +25,7 @@ function PagUser() {
       date
     };
 
-    fetch('http://localhost:5000/agendamentos', {
+    fetch('https://backend-production-ca94.up.railway.app/agendamentos', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
