@@ -15,7 +15,7 @@ const Section4 = () => {
         <p>(42) 9 9824 - 9716</p>
 
         <div className="socialbtn">
-          <a href="https://www.instagram.com/real_josidocorte/#">
+          <a href="https://www.instagram.com/josias.barbernf">
           <InstaIcon />
           </a>
           <a href="">
