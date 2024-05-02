@@ -11,7 +11,7 @@ function Login(): JSX.Element {
   const [name, setName] = useState<string>('');
   const [email, setEmail] = useState<string>('');
   const [password, setPassword] = useState<string>('');
-  const [error, setError] = useState<string>('');
+  const [, setError] = useState<string>('');
   const [user, setUser] = useState<User | null>(null);
   // const [isSignUp, setIsSignUp] = useState<boolean>(false);
 
